@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add New Movie </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            <form class="add_movie_form" id="add_movie_form">
+                <h2> Add a New Movie </h2>
+                <label for="name">Movie Name</label>
+                <input type="text" name="name"/>
+                <label for="release Year">Release Year</label>
+                <input type="text" name="release year"/>
+                <div class="divide">
+                <label for="language">language</label>
+                
+                <select name="lanuage">
+                        <option value="select">select</option>
+                    <option value="english">English</option>
+                    <option value="tamil">tamil</option>
+                    <option value="telugu">telugu</option>
+                    <option value="malayalam">malayalam</option>
+                </select>
+                </div>
+                <div class="divide1">
+                <label for="ratings">ratings</label>
+                <select name="ratings">
+                        <option value="0"> -- </option>
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                    <option value="3">3</option>
+                    <option value="2">2</option>
+                    <option value="1">1</option>
+                </select>
+                </div>
+                <label for="thumbnail url">Thumbnail Url</label>
+                <input type="url" name="thumbnail url"/>
+                <label for="plot">Plot</label>
+                <textarea rows="5" name="plot"> </textarea>
+                <label for="posterurl">Poster Url</label>
+                <input type="url" name="posterurl"/>
+                <label for="cast"> Cast </label>
+                <textarea rows="5" name="cast"></textarea>
+                <input type="submit" value="submit"/>
+            </form>
+    </body>
+</html>
